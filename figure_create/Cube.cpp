@@ -16,6 +16,11 @@ Rectangle Cube::operator+(Line other)
 	return Rectangle(this->getSize()+other.getLong_Size(), this->size);
 }
 
+Rectangle Cube::operator-(Line other)
+{
+	return Rectangle(this->getSize() - other.getLong_Size(),this->size);
+}
+
 
 
 

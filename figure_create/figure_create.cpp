@@ -5,9 +5,8 @@
 int main()
 {
     Cube cube(10);
-    Line line(22);
+    Line line(5);
     Rectangle rectangle(6,10);
-    Rectangle res = cube + line;
+    Rectangle res = cube - line;
     res.Print();
-
 }
