@@ -1,6 +1,13 @@
 #include <iostream>
-
+#include"Cube.h"
+#include"Line.h"
+#include"Rectangle.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+    Cube cube(10);
+    Line line(22);
+    Rectangle rectangle(6,10);
+    Rectangle res = cube + line;
+    res.Print();
+
 }
